@@ -1,0 +1,19 @@
+{
+  "name": "mumatech-plugin-location",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gaara0816/location.git"
+  },
+  "author": "demon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gaara0816/location/issues"
+  },
+  "homepage": "https://github.com/gaara0816/location#readme"
+}

@@ -4,6 +4,7 @@ import android.Manifest;
 import android.app.Activity;
 import android.content.pm.PackageManager;
 import android.os.Build;
+import android.util.Log;
 
 import com.baidu.location.BDAbstractLocationListener;
 import com.baidu.location.BDLocation;
@@ -149,6 +150,7 @@ public class Location extends CordovaPlugin {
                 }
                 mCallbackContext.success(jsonObject);
             } else {
+                Log.d("BDLocation:", String.format("%d", errorCode));
                 JSONObject jsonObject = new JSONObject();
                 try {
                     jsonObject.put("resCode", "FAILED");
